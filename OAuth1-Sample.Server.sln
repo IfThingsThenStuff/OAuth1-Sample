@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OAuth1-Sample.Client", "src\OAuth1-Sample.Client\OAuth1-Sample.Client.csproj", "{C78635BC-FB1B-4139-AC08-B66DEFCB9F04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth1-Sample.Server", "OAuth1-Sample.Server\OAuth1-Sample.Server.csproj", "{5BE2169A-A4D1-4347-819D-9C5C20469AF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C78635BC-FB1B-4139-AC08-B66DEFCB9F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78635BC-FB1B-4139-AC08-B66DEFCB9F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78635BC-FB1B-4139-AC08-B66DEFCB9F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78635BC-FB1B-4139-AC08-B66DEFCB9F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE2169A-A4D1-4347-819D-9C5C20469AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE2169A-A4D1-4347-819D-9C5C20469AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE2169A-A4D1-4347-819D-9C5C20469AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE2169A-A4D1-4347-819D-9C5C20469AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6DF1AAF-E278-4FC6-B135-2501DAC0C94B}
+	EndGlobalSection
+EndGlobal
